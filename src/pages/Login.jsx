@@ -7,6 +7,7 @@ import Checkemail from '../component/Checkemail'
 import Resetpassword from '../component/Resetpassword'
 import MailError from '../component/MailError'
 import Aboutus from './Aboutus'
+import Profile from './Profile'
 
 const Login = () => {
     return (
@@ -22,7 +23,8 @@ const Login = () => {
                     {/* <LoginRight/> */}
 
                     {/* Aboutus */}
-                    <Aboutus/>
+                    {/* <Aboutus/> */}
+                    <Profile/>
             {/* </div> */}
         </section>
     )
